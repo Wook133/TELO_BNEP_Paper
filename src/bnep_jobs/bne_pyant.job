@@ -18,5 +18,5 @@ conda info --envs
 conda activate /home/jdevilliers1/earl
 conda list
 cd /home/jdevilliers1/lustre/november2020
-python BNR_pyant.py --shared_directory /mnt/lustre/users/jdevilliers1/november2020/bne_output/ --num_processors 24
+python BNE_pyant.py --shared_directory /mnt/lustre/users/jdevilliers1/november2020/bne_output/ --num_processors 24
 conda deactivate
